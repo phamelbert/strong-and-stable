@@ -14,8 +14,7 @@ state={
 
 
 	history={
-		owner = USA
-		buildings = {
+		owner = BOU		buildings = {
 			infrastructure = 6
 			industrial_complex = 9
 			air_base = 3
@@ -26,8 +25,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = USA
-		victory_points = {
+		add_core_of = BOU		victory_points = {
 			10337 10
 		}
 		victory_points = {

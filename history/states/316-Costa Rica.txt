@@ -12,8 +12,7 @@ state={
 	
 
 	history={
-		owner = COS
-		buildings = {
+		owner = BOU		buildings = {
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2 
@@ -22,8 +21,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = COS
-		victory_points = {
+		add_core_of = BOU		victory_points = {
 			13087 3
 		}
 

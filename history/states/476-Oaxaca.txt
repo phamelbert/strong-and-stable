@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = MEX
+		owner = BOU
 		buildings = {
 			infrastructure = 3
 			air_base = 2
@@ -15,7 +15,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = MEX
+		add_core_of = BOU
 	}
 
 	provinces={
