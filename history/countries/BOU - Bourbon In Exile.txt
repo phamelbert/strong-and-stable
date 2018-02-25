@@ -49,8 +49,8 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		monarchism = { 
+			popularity = 100
 		}
 
 		fascism = {
@@ -67,7 +67,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -75,10 +75,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Tshekedi Khama"
-	picture = "Portrait_Africa_Generic_2.dds"
+	name = "Alfonso XII"
+	picture = "Portrait_Bourbon_Alfonso.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = monarchist
 	traits = {
 		#
 	}
@@ -92,8 +92,9 @@ create_country_leader = {
 	set_politics = {
 
 		parties = {
-		democratic = { 
-			popularity = 0
+
+		monarchism = { 
+			popularity = 100
 		}
 
 		fascism = {
@@ -110,7 +111,7 @@ create_country_leader = {
 		}
 	}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
