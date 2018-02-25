@@ -16,7 +16,7 @@ set_politics = {
 
 	parties = {
 		conservative = { 
-			popularity = 54
+			popularity = 2
 		}
 
 		fascism = {
@@ -24,15 +24,15 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 2
+			popularity = 74
 			#banned = no #default is no
 		}
 		liberal = {
-			popularity = 40
+			popularity = 20
 		}
 	}
 	
-	ruling_party = conservative
+	ruling_party = communism
 	last_election = "1933.12.15"
 	election_frequency = 84
 	elections_allowed = yes
@@ -55,6 +55,17 @@ create_country_leader = {
 	picture = "Portrait_ECU_Jose_Maria_Velasco_Ibarra.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Leon Trotsky"
+	desc = "POLITICS_LEON_TROTSKY_DESC"
+	picture = "Portrait_ECU_Leon_Trotsky.dds"
+	expire = "1965.1.1"
+	ideology = trotskyism
 	traits = {
 		#
 	}
