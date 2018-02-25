@@ -15,8 +15,13 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+<<<<<<< HEAD
 		add_core_of = BOU
 		
+=======
+		
+		add_core_of = BOU
+>>>>>>> 77bf6c275bb925cc7b5c04c4e7d5ce297c715194
 	}
 	
 	provinces={

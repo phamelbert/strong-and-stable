@@ -28,7 +28,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		neutrality = { 
 			popularity = 47
 		}
 
@@ -41,7 +41,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -118,7 +118,7 @@ set_national_unity = 0.5
 				popularity = 22
 			}
 
-			fascism = {
+			neutrality = {
 				popularity = 76
 			}
 			
@@ -127,7 +127,7 @@ set_national_unity = 0.5
 			}
 		}
 		
-		ruling_party = fascism
+		ruling_party = neutrality
 		last_election = "1934.3.26"
 		election_frequency = 60
 		elections_allowed = no
