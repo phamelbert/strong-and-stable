@@ -117,6 +117,9 @@ monarchism = {
 			
 			anarchist_communism = {
 			}
+			
+			trotskyism = {
+			}
 		}
 		
 		dynamic_faction_names = {
