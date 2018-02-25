@@ -80,7 +80,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		neutrality = { 
+		monarchism = { 
 			popularity = 97
 		}
 
@@ -93,7 +93,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes
@@ -103,7 +103,7 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			neutrality = { 
+			monarchism = { 
 				popularity = 97
 			}
 
@@ -116,7 +116,7 @@ set_politics = {
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1939.4.3"
 		election_frequency = 48
 		elections_allowed = yes
