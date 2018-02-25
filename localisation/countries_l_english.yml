@@ -1358,6 +1358,9 @@
  IBE_monarchism:0 "Kingdom of Iberia"
  IBE_monarchism_DEF:0 "The Kingdom of Iberia"
  IBE_monarchism_ADJ:0 "Iberian"
+ BOU_monarchism:0 "Bourbon Kingdoms in Exile"
+ BOU_monarchism_DEF:0 "The Bourbon Kingdoms in Exile"
+ BOU_monarchism_ADJ:0 "Franco-Spanish"
 
  FACTION_NAME_DEMOCRATIC_1:0 "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2:0 "The $CONTINENT_ADJ$ Entente"
