@@ -467,6 +467,10 @@ KOR = {
 	color = rgb { 255  240  195 }
 	color_ui = rgb { 255 248 229 }	
 }
+IBE = {
+	color = rgb { 242  205  94 }
+	color_ui = rgb { 242  205  94 }	
+}
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }
