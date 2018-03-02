@@ -11,8 +11,7 @@ state={
 	}
 
 	history={
-		owner = ENG
-		buildings = {
+		owner = FRA		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = BOT

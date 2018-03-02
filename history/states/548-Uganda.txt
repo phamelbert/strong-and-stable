@@ -7,8 +7,7 @@ state={
 		rubber=4
 	}
 	history={
-		owner = ENG
-		buildings = {
+		owner = ETH		buildings = {
 			infrastructure = 3
 
 		}
