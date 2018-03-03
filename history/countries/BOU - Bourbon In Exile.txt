@@ -76,7 +76,7 @@ set_politics = {
 create_country_leader = {
 	
 	name = "Alfonso XIII"
-	picture = "Portrait_Bourbon_Alfonso.dds"
+	picture = "Portrait_BOU_Alfonso_XIII_and_I.dds"
 	expire = "1965.1.1"
 	ideology = monarchist
 	traits = {
