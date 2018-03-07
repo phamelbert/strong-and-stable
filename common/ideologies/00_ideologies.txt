@@ -48,11 +48,11 @@ monarchism = {
 		ai_neutral = yes # 
 	}
 
-	conservative = {
+	conservatism = {
 	
 		types = {
 			
-			conservatism = {
+			conservative = {
 			}
 		
 			
@@ -193,7 +193,7 @@ monarchism = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 	
-	stratocracy = {
+	stratocracism = {
 	
 		types = {
 		
@@ -241,11 +241,11 @@ monarchism = {
 		ai_neutral = yes # 
 	}
 
-liberal = {
+liberalsm = {
 	
 		types = {
 			
-			liberalism = {
+			liberal = {
 			}
 		
 			
@@ -429,7 +429,7 @@ monarchism = {
 		ai_neutral = yes # 
 	}
 
-	theocracy = {
+theocracy = {
 	
 		types = {
 		
