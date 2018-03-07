@@ -19,7 +19,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = POR
+		add_core_of = BRA
 	}
 
 	provinces={

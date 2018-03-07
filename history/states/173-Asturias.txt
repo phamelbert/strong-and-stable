@@ -26,7 +26,8 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = SPR
+		add_core_of = BOU
+		add_core_of = IBE
 	}
 
 	provinces={
