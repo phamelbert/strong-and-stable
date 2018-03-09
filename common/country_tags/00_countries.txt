@@ -115,3 +115,4 @@ IBE = "countries/Iberia.txt"
 BOU = "countries/Bourbon In Exile.txt
 WAR = "countries/Warsaw.txt"
 CSA = "countries/Confederacy.txt"
+HAW = "countries/Hawaii.txt"
