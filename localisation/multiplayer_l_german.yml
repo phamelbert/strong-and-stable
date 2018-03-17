@@ -134,3 +134,4 @@
  MATCHMAKING_SERVER_DENIED:0 "Zeitüberschreitung bei der Verbindung"
  MULTIPLAYER_RESYC:0 "Neu synchronisieren"
  FE_CONFIRM:0 "Bestätigen"
+ FAILED_TO_CONNECT:0 "Verbindung fehlgeschlagen"

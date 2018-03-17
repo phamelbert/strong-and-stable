@@ -133,4 +133,5 @@
  PLAYER_REMOVED_TITLE:0 "$PLAYER$ покидает игру"
  PLAYER_REMOVED_DESC:0 "$PLAYER|Y$, к сожалению, больше не участвует в игре.\nХотите, чтобы государство $COUNTRY|Y$ перешло под контроль ИИ?"
  MULTIPLAYER_RESYC:0 "Повторная синхронизация"
+ FAILED_TO_CONNECT:0 "Подключение не выполнено"
  
