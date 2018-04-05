@@ -1,4 +1,4 @@
-﻿capital = 219
+capital = 219
 
 oob = "SOV_1936"
 
@@ -208,19 +208,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 10 #shared between all parties, should add to 100
+			popularity = 0 #shared between all parties, should add to 100
 		}
 
 		fascism = {
-			popularity = 2
+			popularity = 100
 		}
 		
 		communism = {
-			popularity = 88
+			popularity = 0
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
