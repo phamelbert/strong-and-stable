@@ -241,7 +241,7 @@ monarchism = {
 		ai_neutral = yes # 
 	}
 
-liberalsm = {
+liberalism = {
 	
 		types = {
 			
