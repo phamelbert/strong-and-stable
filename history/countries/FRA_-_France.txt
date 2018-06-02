@@ -1,4 +1,4 @@
-capital = 16
+shallcapital = 16
 
 oob = "FRA_1936"
 
@@ -42,84 +42,8 @@ set_technology = {
 	trench_warfare = 1
 	fleet_in_being = 1
 }
-# DIPLOMACY
-if = {
+
 	
-	set_autonomy = {
-		target = MAL
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = VIN
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RHO
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = RAJ
-		autonomous_state = autonomy_colony
-		freedom_level = 0.35
-	}
-	set_autonomy = {
-		target = CAN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SAF
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = AST
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	set_autonomy = {
-		target = NZL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = ENG
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = POL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = GER
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = AUS
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = HUN
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = HOL
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = IBE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = ITA
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	set_autonomy = {
-		target = NHE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.2
-	}
-	
-}
 1939.1.1 = {
 
 	add_political_power = 899
@@ -250,17 +174,48 @@ add_ideas = {
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Napoleon VI"
+	name = "Charles de Gaulle"
 	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
-	picture = "Portrait_FRA_Napoleon_VI.dds"
+	picture = "Portrait_France_Charles_De_Gaulle.dds"
 	expire = "1965.1.1"
-	ideology = monarchist
+	ideology = conservatism
 	traits = {
 		
 	}
 }
 
+create_country_leader = {
+	name = "Napoleon VI"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "Portrait_FRA_Napoleon_VI.dds"
+	expire = "1965.1.1"
+	ideology = monarchist
+	traits = {
+		stout_defender
+	}
+}
 
+create_country_leader = {
+	name = "Maurice Thorez"
+	desc = "POLITICS_MAURICE_THOREZ_DESC"
+	picture = "GFX_portrait_fra_maurice_thorez"
+	expire = "1965.1.1"
+	ideology = 	stalinism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Philippe Pétain"
+	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+	picture = "Portrait_France_Philippe_Petain.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
