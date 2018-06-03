@@ -1,4 +1,4 @@
-﻿capital = 10
+capital = 10
 
 oob = "POL_1936"
 
@@ -144,12 +144,12 @@ set_politics = {
 			popularity = 2
 		}
 		
-		neutrality = { 
+		monarchism = { 
 			popularity = 65
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = no
@@ -171,12 +171,12 @@ set_politics = {
 				popularity = 2
 			}
 			
-			neutrality = { 
+			monarchism = { 
 				popularity = 78
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = monarchism
 		last_election = "1935.9.8"
 		election_frequency = 36
 		elections_allowed = no
@@ -184,59 +184,17 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Władysław Sikorski"
+	name = "Friedrich I Christian"
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
+	picture = "King of Saxony.dds"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = monarchist 
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Ignacy Mościcki"
-	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Władysław Gomułka"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "Portrait_Poland_Wladyslaw_Gomulka.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Wincenty Witos"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "GFX_POL_wincenty_witos"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Bolesław Piasecki"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "GFX_POL_boleslaw_piasecki"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		#
-	}
-}
 
 create_field_marshal = {
 	name = "Władysław Sikorski"
