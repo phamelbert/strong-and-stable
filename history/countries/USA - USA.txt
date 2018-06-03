@@ -1,4 +1,4 @@
-﻿capital = 361
+capital = 361
 
 oob = "USA_1936"
 
@@ -171,12 +171,12 @@ set_convoys = 400
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		conservatism = { 
+			popularity = 50
 		}
 
-		fascism = {
-			popularity = 0
+		liberalism = {
+			popularity = 50
 		}
 		
 		communism = {
@@ -185,7 +185,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -211,12 +211,12 @@ set_autonomy = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
-				popularity = 99
+			conservatism = { 
+				popularity = 50
 			}
 
-			fascism = {
-				popularity = 0
+			liberalism = {
+				popularity = 50
 			}
 			
 			communism = {
@@ -225,41 +225,21 @@ set_autonomy = {
 			}
 		}
 		
-		ruling_party = democratic
+		ruling_party = conservatism
 		last_election = "1936.11.3"
 		election_frequency = 48
 		elections_allowed = yes
 	}
 }
 
-create_country_leader = {
-	name = "Franklin Delano Roosevelt"
-	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
-	expire = "1947.1.1"
-	ideology = liberalism
-	traits = {
-		dislikes_germany
-	}
-}
+
 
 create_country_leader = {
-	name = "William Dudley Pelley"
-	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
-	picture = "Portrait_USA_William_Dudley_Pelley.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Earl Browder"
+	name = "John J Pershing"
 	desc = "POLITICS_EARL_BROWDER_DESC"
-	picture = "Portrait_USA_Generic_1.dds"
+	picture = "Pershing.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = conservative
 	traits = {
 		
 	}

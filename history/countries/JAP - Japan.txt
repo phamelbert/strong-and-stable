@@ -1,4 +1,4 @@
-﻿capital = 282
+capital = 282
 
 oob = "JAP_1936"
 
@@ -206,12 +206,12 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 0
+		monarchism  = { 
+			popularity = 40
 		}
 
-		fascism = {
-			popularity = 100
+		stratocracism = {
+			popularity = 60
 		}
 		
 		communism = {
@@ -220,7 +220,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = stratocracism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -230,22 +230,22 @@ set_politics = {
 1939.1.1 = {
 	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
+	parties = {
+		monarchism  = { 
+			popularity = 40
+		}
 
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
+		stratocracism = {
+			popularity = 60
 		}
 		
-		ruling_party = fascism
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+	}
+		
+		ruling_party = stratocracism
 		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
@@ -253,38 +253,19 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Hirohito"
+	name = "Tokugawa Iesato"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Japan_Hirohito.dds"
+	picture = "Tokugawa Iesato.dds"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = junta
 	traits = {
 		warrior_code
-		emperor_showa
-		imperial_sanction
+		
 	}
-	id = 700 #Hirohito
+	
 }
 
-create_country_leader = {
-	name = "Kyuichi Tokuda"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_kyuichi_tokuda"
-	expire = "1989.1.1"
-	ideology = marxism
-	traits = {
-	}
-}
 
-create_country_leader = {
-	name = "Tetsu Katayama"
-	desc = "POLITICS_Hirohito_DESC"
-	picture = "GFX_Portrait_tetsu_katayama"
-	expire = "1989.1.1"
-	ideology = liberalism
-	traits = {
-	}
-}
 
 create_corps_commander = {
 	name = "Tomoyuki Yamashita"

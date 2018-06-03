@@ -1,4 +1,4 @@
-﻿capital = 41
+capital = 41
 
 oob = "SPR_1936"
 
@@ -138,49 +138,15 @@ set_national_unity = 0.5
 }
 
 create_country_leader = {
-	name = "Manuel Azana"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Manuel_Azana.dds"
+	name = "Napoleon VI"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "Portrait_FRA_Napoleon_VI.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = monarchist
 	traits = {
-		#
+		stout_defender
 	}
 }
-
-create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco Franco"
-	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
 create_field_marshal = {
 	name = "José Asensio Torrado"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"

@@ -1,4 +1,4 @@
-﻿capital = 64
+capital = 64
 
 oob = "GER_1936"
 
@@ -219,7 +219,7 @@ set_politics = {
 			popularity = 20
 		}
 
-		fascism = {
+		monarchism = {
 			popularity = 60
 		}
 		
@@ -229,7 +229,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = monarchism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -252,33 +252,15 @@ add_ideas = GER_mefo_bills_1
 activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	name = "Napoleon VI"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "Portrait_FRA_Napoleon_VI.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = monarchist
 	traits = {
-		dictator
+		stout_defender
 	}
 }
-
-create_country_leader = {
-	name = "Konrad Adenauer"
-	desc = "POLITICS_KONRAD_ADENAUER_DESC"
-	picture = "Portrait_Germany_Konrad_Adenauer.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = "POLITICS_WILHELM_PIECK_DESC"
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
 		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
 		exiled # He left in 1933 so he should still be exiled
 	}

@@ -1,4 +1,4 @@
-﻿capital = 2
+capital = 2
 
 oob = "ITA_1936"
 
@@ -152,7 +152,7 @@ set_politics = {
 			popularity = 22
 		}
 
-		fascism = {
+		monarchism = {
 			popularity = 76
 		}
 		
@@ -161,7 +161,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = monarchism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -171,35 +171,13 @@ set_politics = {
 
 
 create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Portrait_Italy_Benito_Mussolini.dds"
+	name = "Napoleon VI"
+	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+	picture = "Portrait_FRA_Napoleon_VI.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = monarchist
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Ferruccio Parri"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_italy_ferruccio_parri"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Palmiro Togliatti"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_ita_palmiro_togliatti"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
+		stout_defender
 	}
 }
 
